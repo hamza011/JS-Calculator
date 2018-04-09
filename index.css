@@ -1,0 +1,41 @@
+body{
+  background: #100a1c;
+  background-image: radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+                    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+  background-attachment: fixed;
+  color: #6cacc5;
+  color: #6cacc5;
+  font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+  margin: 0;
+  padding: 3em 0 2em;
+  text-align: center;
+}
+.calculator{
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+button {
+  border: 0;
+  background: rgba(65, 98, 207, 0.28);
+  color: #6cacc5;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+}
+button:hover{
+  background: #201e40;
+}
+button:focus{
+  outline: 0;
+}
+.clear{
+  width: 9.5em !important;
+}
+.ops{
+  background: #261226
+}
