@@ -3,5 +3,5 @@ javascript simple calculator
 
 # Screenshot
 <section data-markdown>
-  <img src="Screenshot.png" width=350px height=400px />
+  <img src="Screenshot.png" width=400px height=400px />
 </section>
